@@ -1,6 +1,8 @@
 #!/bin/bash
 
+echo -e "\n"
 read -p "Your TypeScript project's name: " PROJECT_NAME
+echo -e "\n"
 
 mkdir $PROJECT_NAME
 cd $PROJECT_NAME
@@ -24,3 +26,6 @@ echo -e "node_modules\n.env" > .gitignore
 git init
 npm i
 code .
+echo -e "\n"
+echo -e "\033[1;32;40mDone! Now, run the command 'nvm use' to use the installed version of Node Version Manager\033[0m"
+echo -e "\n"

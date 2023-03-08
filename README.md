@@ -4,3 +4,5 @@ Remember to make the file executable using the command "chmod +x typescriptProje
 
 After it, put the file where you want to create your project, than execute it calling its name and path 
 ./typescriptProjectGenerator.sh
+
+The last part is running the command "nvm use" to use the installed version of Node Version Manager
